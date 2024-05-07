@@ -1,0 +1,62 @@
+/* button styles starts*/
+button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 45px;
+  width: 120px;
+}
+
+/* buttons margin */
+.display-item button {
+  margin-left: 10px;
+}
+
+/* submit button style */
+button[type="submit"] {
+  margin-left: 105px;
+  width: 150px;
+}
+
+/* table styles start here */
+#tableItem {
+  margin-left: 95px;
+  padding: 5px;
+  border: 2px dotted black;
+}
+
+/* user entered value styles */
+.entered-value {
+  border: 1px solid black;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+/* input filed styles */
+.user-input {
+  border: 1px solid black;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+}
+
+/* display item styles */
+.display-item {
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  margin-left: 65px;
+}
+
+/* selected values styles */
+.selected-value {
+  font-size: 20px;
+}
+.create-item {
+  display: inline-block;
+}
+
+/* user list title styles */
+h3 {
+  margin: -8px auto -8px auto;
+}

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+* {
+  font-family: Roboto, "Arial, sans-serif";
+}
+
+body {
+  background-color: rgba(92, 230, 200, 0.7764705882);
+  margin: 5px 15px 15px 15px;
+}
+
+.form-label {
+  font-size: 18px;
+  color: rgba(3, 3, 128, 0.836);
+  display: block;
+  margin-bottom: 6px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  color: gray;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  height: 32px;
+  width: 90px;
+  border-radius: 16px;
+  background-color: rgba(8, 8, 194, 0.945);
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.788);
+  margin-left: 50px;
+}
+button:hover {
+  background-color: rgba(8, 8, 194, 0.772);
+}
+.form-header {
+  margin-left: 25px;
+}
+.form-header h2 {
+  font-size: 26px;
+  font-weight: 800px;
+  margin-bottom: 30px;
+}
+.form-header span {
+  margin-top: -20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.user-form {
+  display: flex;
+  margin: auto 20px auto 20px;
+}
+.user-form h2 {
+  color: rgba(2, 2, 183, 0.945);
+  margin-bottom: 48px;
+}
+
+section {
+  background-color: #fff;
+}
+section div {
+  margin-bottom: 5px;
+}
+section h2 {
+  margin-left: 50px;
+}
+
+aside {
+  color: #fff;
+  padding: 8px 42px;
+  background-color: rgba(9, 9, 215, 0.954);
+  margin-left: -80px;
+  width: 55%;
+}
+aside h3 {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+
+textarea {
+  outline: none;
+  width: auto;
+  font-size: 17px;
+  width: 76.5%;
+  height: 85px;
+}
+
+textarea[placeholder] {
+  padding-left: 15px;
+  padding-top: 12px;
+}
+
+.form-element {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+.form-element div {
+  margin-right: 40px;
+}
+
+.form-reach {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.form-reach div span:nth-child(4) {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */

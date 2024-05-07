@@ -1,0 +1,119 @@
+/* body styles start here */
+body {
+  margin: 8px 10px;
+}
+
+.container {
+  width: auto;
+  margin: 5px 10px 5px 10px;
+}
+/*styles for screen size max-width 768px starts */
+/*first container-child styles for screen size max-width 768px*/
+.first-container-child {
+  width: auto;
+  height: 40px;
+  background-color: rgba(221, 160, 48, 0.795);
+}
+
+/*second container-child styles for screen size max-width 768px*/
+.second-container-child {
+  width: auto;
+  height: 55px;
+  background-color: #d1eb27c7;
+  margin: 5px 10px 5px 10px;
+}
+
+/*third container-child styles for screen size max-width 768px*/
+.third-container-child {
+  width: auto;
+  height: 85px;
+  background-color: #50a7ff;
+  margin: 5px 10px 5px 10px;
+}
+
+/*forth container styles for screen size max-width 768px*/
+.forth-container-child {
+  width: auto;
+  height: 45px;
+  margin: 5px 10px 5px 10px;
+  background-color: #a39e9e;
+}
+/*styles for screen size max-width 768px ends */
+
+/*styles for screen size max-width 1024px starts */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*first container-child styles for screen size max-width 1024px*/
+  .first-container-child {
+    height: 35px;
+    margin: 5px;
+  }
+
+  /*second container-child styles for screen size max-width 1024px*/
+  .second-container-child {
+    width: auto;
+    height: 110px;
+    margin: 5px;
+  }
+
+  /*third container-child styles for screen size max-width 1024px*/
+  .third-container-child {
+    width: auto;
+    height: 50px;
+    margin: 5px;
+  }
+
+  /*forth container styles for screen size max-width 1024px*/
+  .forth-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /*forth container-child styles for screen size max-width 1024px*/
+  .forth-container-child {
+    flex: 1 0 45%;
+    height: 45px;
+    margin: 2.5px 5px 2.5px 5px;
+  }
+}
+/*styles for screen size max-width 1024px ends*/
+
+/*styles for screen size above 1024px starts */
+@media (min-width: 1024px) {
+  /*first container styles for screen size above 1024px*/
+  .first-container {
+    display: flex;
+  }
+  .first-container-child {
+    width: 100%;
+    height: 80px;
+    margin: 5px 10px 5px 10px;
+  }
+
+  /*second container styles for screen size above 1024px*/
+  .second-container-child {
+    width: auto;
+    height: 195px;
+    margin: 5px 10px 5px 10px;
+  }
+
+  /*forth container styles for screen size above 1024px*/
+  .third-container {
+    display: flex;
+  }
+  .third-container-child {
+    width: 33.33%;
+    height: 135px;
+    margin: 5px 10px 5px 10px;
+  }
+
+  /*forth container styles for screen size above 1024px*/
+  .forth-container {
+    display: flex;
+  }
+  .forth-container-child {
+    flex: 1 1 22%;
+    height: 95px;
+    margin: 5px 10px 5px 10px;
+  }
+}
+/*styles for screen size above 1024px ends */

@@ -1,0 +1,59 @@
+/* sets the table styles */
+table {
+  margin-left: 25%;
+  margin-top: 75px;
+  border-collapse: collapse;
+  position: sticky;
+}
+
+/* sets the table head styles */
+th {
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-right: none;
+  border-left: none;
+  position: sticky;
+}
+
+/* sets the table data styles */
+td {
+  padding: 10px 25px 10px 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  position: sticky;
+}
+
+/* sets the table last child border */
+td:last-child {
+  border-bottom: none;
+}
+
+/* sets the button styles*/
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  border: none;
+}
+
+/* sets the transition styles for delete button */
+.transition-delete {
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  border: none;
+  background-color: #004369;
+  transition: background-color 0.6s;
+  transition: 0.7s;
+  transform: scale(1.1) translate(10px);
+  cursor: pointer;
+}

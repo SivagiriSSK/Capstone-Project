@@ -1,0 +1,98 @@
+$textColor: #fff;
+$backgroundColor: blue;
+$mainBackgroundColor: #006e2e;
+$articleBackgroundColor: #074621;
+$asideBackgroundColor: orangered;
+
+// sets the body styles
+body {
+  margin: 5px;
+  font-weight: bolder;
+}
+
+// sets the header styles
+header {
+  height: 80px;
+  background-color: $backgroundColor;
+  color: $textColor;
+  border-radius: 8px;
+  padding-left: 32px;
+  padding-top: 2px;
+  padding-bottom: 9px;
+  font-size: 27px;
+  font-weight: bolder;
+  width: 60.5%;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+// sets the flex
+.flex-container {
+  display: flex;
+  height: 370px;
+  margin-left: 100px;
+}
+
+// sets the section styles
+section {
+  background-color: $mainBackgroundColor;
+  width: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  border-radius: 10px;
+
+  // sets the article styles
+  article {
+    text-align: center;
+    margin: auto 10px 20px 23px;
+    height: 70px;
+    width: 18%;
+    background-color: $articleBackgroundColor;
+    color: $textColor;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    font-weight: bolder;
+  }
+
+  // sets the h2 styles
+  h2 {
+    font-size: 27px;
+    font-weight: bolder;
+    color: $textColor;
+    padding-left: 23px;
+    width: 100%;
+  }
+}
+
+// sets the aside styles
+aside {
+  margin-left: 20px;
+  background-color: $asideBackgroundColor;
+  width: 15%;
+  color: $textColor;
+  border-radius: 8px;
+  padding-left: 32px;
+  padding-bottom: 6px;
+  font-size: 27px;
+  font-weight: bolder;
+  margin-top: 0;
+  font-weight: bolder;
+  margin-left: 17px;
+}
+
+// sets the footer styles
+footer {
+  height: 80px;
+  background-color: $backgroundColor;
+  color: $textColor;
+  border-radius: 8px;
+  padding-left: 32px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: 15px;
+  width: 60.5%;
+  font-size: 27px;
+  font-weight: bolder;
+  margin-left: 100px;
+}

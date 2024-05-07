@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-7</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <!-- user form starts here -->
+  <form action="#">
+    <div>
+      <label for="nameInput">Name: </label>
+      <input type="text" id="nameInput" required>
+    </div>
+    <div>
+      <label for="emailInput">Email: </label>
+      <input type="email" id="emailInput" required>
+    </div>
+    <button type="submit" id='submitButton' onclick="handleSaveForm()">Save</button>
+  </form>
+  <!-- user form ends here -->
+
+  <!-- table starts here -->
+  <div id="userTable">
+    <table>
+      <!-- table head starts  -->
+      <thead class="table-head">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <!-- table head ends -->
+
+      <!-- table body starts -->
+      <tbody class="table-body"></tbody>
+      <!-- table body ends -->
+    </table>
+  </div>
+  <!-- table ends here -->
+
+  <!--scripts file added here -->
+  <script src="./scripts/main.js"></script>
+</body>
+
+
+</html>

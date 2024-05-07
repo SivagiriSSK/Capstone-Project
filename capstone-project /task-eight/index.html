@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-8</title>
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+
+  <!-- create user list table & buttons starts here -->
+  <div class="create-item">
+    <!-- add element & remove element & remove all buttons -->
+    <button type="button" onclick="handleCreateInputFiled()">Add Element</button> 
+    <button type="button" onclick="handleRemoveElement()"> Remove Element</button> 
+    <button type="button" onclick="handleRemoveAllElement()">Remove All</button> 
+
+    <!-- table starts here -->
+    <table id="tableItem">
+      <thead class="table-head">
+      </thead>
+      <tbody id="tableBody">
+      </tbody>
+    </table>
+    <!-- table ends here -->
+
+    <!-- user submit button  -->
+    <button type="submit" id="submitButton" onclick="handleSubmit()">Submit</button> 
+  </div>
+  <!-- create user list table & buttons ends here -->
+
+  <!-- display user list starts -->
+  <div class="display-item">
+    <!-- change text to uppercase and lowercase buttons -->
+    <button type="button" onclick="handleUpperCase()">Uppercase</button>
+    <button type="button" onclick="handleLowerCase()">Lowercase</button>
+
+    <!-- display user entered list -->
+    <div class="display-list">
+      <h3>Your Selected Values</h3>
+      <p class="selected-value">
+      </p>
+    </div>
+  </div>
+  <!-- display user list ends -->
+
+  <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>

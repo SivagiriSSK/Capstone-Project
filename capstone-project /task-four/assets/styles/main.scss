@@ -1,0 +1,150 @@
+$labelColor: rgba(3, 3, 128, 0.836);
+$inputFieldColor: gray;
+$buttonTextColor: #fff;
+$headerTextColor: rgba(2, 2, 183, 0.945);
+$fontFamily: Roboto, "Arial, sans-serif";
+$bodyBackgroundColor: #5ce6c8c6;
+$buttonBackgroundColor: rgba(8, 8, 194, 0.945);
+$hoverColor: rgba(8, 8, 194, 0.772);
+$sectionBackgroundColor: #fff;
+$asideBackgroundColor: rgba(9, 9, 215, 0.954);
+
+// connect form font style
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+* {
+  font-family: $fontFamily;
+}
+
+// sets the body styles
+body {
+  background-color: $bodyBackgroundColor;
+  margin: 5px 15px 15px 15px;
+}
+
+.form-header {
+  margin-left: 25px;
+}
+
+//sets the label styles
+.form-label {
+  font-size: 18px;
+  color: $labelColor;
+  display: block;
+  margin-bottom: 6px;
+}
+
+//sets the input filed styles
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  color: $inputFieldColor;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+//sets the button styles
+button {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: $buttonTextColor;
+  height: 32px;
+  width: 90px;
+  border-radius: 16px;
+  background-color: $buttonBackgroundColor;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.788);
+  margin-left: 50px;
+  &:hover {
+    background-color: $hoverColor;
+  }
+}
+
+//sets the header styles
+.form-header {
+  h2 {
+    font-size: 26px;
+    font-weight: 800px;
+    margin-bottom: 30px;
+  }
+  span {
+    margin-top: -20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    display: block;
+  }
+}
+
+//sets the user form styles
+.user-form {
+  display: flex;
+  margin: auto 20px auto 20px;
+  h2 {
+    color: $headerTextColor;
+    margin-bottom: 48px;
+  }
+}
+
+//sets the section styles
+section {
+  background-color: $sectionBackgroundColor;
+  div {
+    margin-bottom: 5px;
+  }
+  h2 {
+    margin-left: 50px;
+  }
+}
+
+//sets the aside styles
+aside {
+  color: $buttonTextColor;
+  padding: 8px 42px;
+  background-color: $asideBackgroundColor;
+  margin-left: -80px;
+  width: 55%;
+  h3 {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+}
+
+//sets the textarea styles
+textarea {
+  outline: none;
+  width: auto;
+  font-size: 17px;
+  width: 76.5%;
+  height: 85px;
+}
+textarea[placeholder] {
+  padding-left: 15px;
+  padding-top: 12px;
+}
+
+//sets the form elements styles
+.form-element {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  div {
+    margin-right: 40px;
+  }
+}
+
+//sets the reach us styles
+.form-reach {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  row-gap: 40px;
+  span {
+    &:nth-child(4) {
+      display: block;
+    }
+  }
+}

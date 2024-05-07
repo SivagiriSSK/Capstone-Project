@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Task-1</title>
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <!-- registration form starts here -->
+  <form action="#" method="get">
+
+    <!-- table starts here -->
+    <table>
+
+      <!-- table header starts here -->
+      <thead>
+
+        <!-- for table head title -->
+        <tr>
+          <th colspan="3">XYZ University Student Registration</th>
+        </tr>
+      </thead>
+      <!-- table header ends here -->
+
+      <!-- table body starts here -->
+      <tbody>
+
+        <!-- personal details starts here -->
+        <!-- for student first name -->
+        <tr>
+          <th rowspan="4">Personal Details</th>
+          <td class="required-field"> <label for="firstName">First Name</label> </td>
+          <td> <input class="input-background" type="text" maxlength="10" id="firstName" name="firstName" required>
+          </td>
+        </tr>
+
+        <!-- for student last name -->
+        <tr>
+          <td class="required-field"> <label for="lastName">Last Name</label> </td>
+          <td> <input type="text" class="input-background" name="lastName" id="lastName" maxlength="10" required> </td>
+        </tr>
+
+        <!-- for student date of birth -->
+        <tr>
+          <td class="required-field"> <label for="dateOfBirth">Date of Birth</label> </td>
+          <td> <input type="date" id="dateOfBirth" name="dateOfBirth" required> </td>
+        </tr>
+
+        <!-- for student gender -->
+        <tr>
+          <td>Gender</td>
+          <td> <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+          </td>
+        </tr>
+        <!-- personal details ends here -->
+
+        <!-- academic details starts here -->
+        <tr>
+          <th rowspan="4">Academic Details</th>
+
+          <!-- for student degree -->
+          <td>
+            <label for="degree">Degree</label>
+          </td>
+          <td>
+            <select name="degree" id="degree">
+              <option value="masters">Masters</option>
+              <option value="bachelors">Bachelors</option>
+              <option value="doctorate">Doctorate</option>
+            </select>
+          </td>
+        </tr>
+
+        <!-- for specialization -->
+        <tr>
+          <td class="required-field"> <label for="specialization">Specialization</label> </td>
+          <td> <input type="text" id="specialization" name="specialization" value="English Literature" required> </td>
+        </tr>
+
+        <!-- for mode of instruction -->
+        <tr>
+          <td> <label for="modeOfInstruction"> Mode of instruction </label> </td>
+          <td>
+            <label> <input type="checkbox" name="instruction" id="modeOfInstruction" class="mode" checked
+                required>Classroom</label>
+            <label> <input type="checkbox" name="instruction" class="mode">Online</label>
+          </td>
+        </tr>
+
+        <!-- for student current GPA -->
+        <tr>
+          <td class="required-field"> <label for="currentGPA"> Current GPA</label> </td>
+          <td> <input type="number" max="5.0" min="0.1" step="0.1" id="currentGPA" name="currentGPA" required> </td>
+        </tr>
+        <!-- academic details ends here -->
+
+        <!-- contact details starts here -->
+        <tr>
+          <th rowspan="2">Contact Details</th>
+
+          <!-- for student phone number -->
+          <td class="required-field"> <label for="phoneNumber">Phone Number</label> </td>
+          <td> <input type="text" class="input-background" maxlength="10" pattern="\d{10}" id="phoneNumber"
+              name="phoneNumber" required> </td>
+        <tr>
+
+          <!-- for student address -->
+          <td class="required-field"> <label for="address">Address</label> </td>
+          <td> <textarea class="input-background" id="address" name="address" cols="38" rows="4" maxlength="160"
+              required></textarea> </td>
+        </tr>
+        <!-- contact details ends here -->
+
+        <!-- ensure all the details entered are correct -->
+        <tr>
+          <th colspan="3">I assure all the details entered are correct: <input type="checkbox" checked required> Yes
+          </th>
+        </tr>
+
+        <!-- form submission here -->
+        <tr>
+          <th colspan="3">
+            <button type="submit">Submit</button>
+          </th>
+        </tr>
+      </tbody>
+      <!-- table body ends here -->
+    </table>
+    <!-- table ends here -->
+  </form>
+  <!-- registration form ends here -->
+
+</body>
+
+</html>
